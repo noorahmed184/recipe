@@ -1,10 +1,10 @@
-import os
+#import os
 import pandas as pd
 import streamlit as st 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from openai import OpenAI
 
-load_dotenv(r"C:\Users\97335\Downloads\dsb3\Projects\llm.env")
+#load_dotenv(r"C:\Users\97335\Downloads\dsb3\Projects\llm.env")
 
 
 def smart_chef(ingredients, restriction):
